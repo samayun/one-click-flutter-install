@@ -5,7 +5,7 @@ I am bored so I am writing this shity shell script.
 I am using Linux Mint.
 I hope any debian based distro like ubuntu, kali-linux,debian should works by this script.
 
-If you are using ArchBased distro or other . you can write another bnoring scripts foring this repository.
+If you are using ArchBased distro or other . you can write another boring scripts forking this repository.
 
 ## Install
 
