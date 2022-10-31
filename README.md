@@ -17,8 +17,8 @@ git clone git@github.com:samayun/one-click-flutter-install.git
 
 cd one-click-flutter-install
 
-sudo ./flutter.sh
+bash flutter.sh
 
-sudo ./android-studio.sh
+bash android-studio.sh
 
 ```
