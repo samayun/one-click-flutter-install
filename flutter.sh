@@ -25,3 +25,6 @@ flutter doctor
 
 echo '✅ Insatll Linux Dependencies' 
 sudo apt-get install clang cmake ninja-build pkg-config libgtk-3-dev liblzma-dev
+
+
+echo '🐦 Flutter install success'
