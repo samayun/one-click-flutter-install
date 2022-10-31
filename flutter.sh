@@ -4,7 +4,16 @@ cd ~
 git clone https://github.com/flutter/flutter.git
 echo '✅ Clone Flutter'
 
-export PATH="$PATH:`pwd`/flutter/bin"
+FLUTTER_BIN="`pwd`/flutter/bin"
+
+FLUTTER_PATH="$PATH:$FLUTTER_BIN"
+
+APPEND_FLUTTER_PATH_MESSAGE="export FLUTTER_PATH=$FLUTTER_BIN" 
+
+echo $APPEND_FLUTTER_PATH_MESSAGE >> ~/.bashrc
+echo $APPEND_FLUTTER_PATH_MESSAGE >> ~/.zshrc
+
+export PATH=$FLUTTER_PATH
 echo '✅ Setup Path'
  
 
